@@ -172,7 +172,7 @@ void LoadEnemies()
     enemies.push_back(Enemy(LoadTexture("resources/enemies/enemy_plant.png"), 6, 120, 1));
     enemies.push_back(Enemy(LoadTexture("resources/enemies/enemy_crab_rock.png"), 12, 90, 1));
     enemies.push_back(Enemy(LoadTexture("resources/enemies/enemy_spike.png"), 14, 0, 2));
-    enemies.push_back(Enemy(LoadTexture("resources/enemies/enemy_spike.png"), 300, 100, 1));
+    enemies.push_back(Enemy(LoadTexture("resources/enemies/boss.png"), 300, 100, 1));
 }
 
 void LoadProjectiles()
