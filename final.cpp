@@ -582,10 +582,10 @@ int main()
 
         if (titleScreen)
         {
-            DrawText("The Tale of", 500, 200, 100, WHITE);
-            DrawText("Bow Guy", 400, 300, 200, RED);
-            DrawText("Press \"T\" to begin!", 500, 920, 60, WHITE);
-            DrawTextureEx(playerRight, Vector2 {620, 500}, 0, 6, WHITE);
+            DrawText("The Tale of", 500, 100, 100, WHITE);
+            DrawText("Bow Guy", 400, 200, 200, RED);
+            DrawText("Press \"T\" to begin!", 510, 870, 60, WHITE);
+            DrawTextureEx(playerRight, Vector2 {620, 430}, 0, 6, WHITE);
             ClearBackground(Color{16, 23, 80});
             if (IsKeyDown(KEY_T))
             {
